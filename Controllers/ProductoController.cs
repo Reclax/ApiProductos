@@ -20,6 +20,25 @@ namespace ApiProductos.Controllers
         {
             return Ok(productos);
         }
+        // GET /api/productos/{id}
+        [HttpGet("{id}")]
+        public ActionResult<Producto> GetProducto(int id)
+        {
+            var producto = productos.FirstOrDefault(p => p.Id == id);
+            if (producto == null)
+                return NotFound();
+            return Ok(producto);
+        }
+        // POST /api/productos
+        [HttpPost]
+        public ActionResult<Producto> CrearProducto([FromBody] Producto nuevoProducto)
+        {
+            nuevoProducto.Id = productos.Max(p => p.Id) + 1;
+            productos.Add(nuevoProducto);
+            return CreatedAtAction(nameof(GetProducto), new { id = nuevoProducto.Id }, nuevoProducto);
+        }
+
+
     }
 }
 
