@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\API\\ApiProductos\\ApiProductos.csproj": {}
+    "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\ApiProductos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\API\\ApiProductos\\ApiProductos.csproj": {
+    "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\ApiProductos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\API\\ApiProductos\\ApiProductos.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\ApiProductos.csproj",
         "projectName": "ApiProductos",
-        "projectPath": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\API\\ApiProductos\\ApiProductos.csproj",
-        "packagesPath": "C:\\Users\\melcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\Api\\ApiProductos\\obj\\",
+        "projectPath": "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\ApiProductos.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\melcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

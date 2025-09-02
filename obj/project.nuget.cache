@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2nY43y4JavQ=",
+  "dgSpecHash": "m89DiwHMyZk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD TÉCNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\API\\ApiProductos\\ApiProductos.csproj",
+  "projectFilePath": "C:\\Users\\marco\\IdeaProjects\\ApiProductos\\ApiProductos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\melcu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
-    "C:\\Users\\melcu\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }
