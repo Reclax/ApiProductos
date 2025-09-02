@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD T\u00C9CNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\Api\\ApiProductos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{228F7AE9-BD08-AD45-E6D0-2B8F1CBA33BF}|ApiProductos.csproj|c:\\users\\melcu\\onedrive - universidad t\u00E9cnica de ambato\\universidad periodo 2025-2026\\aplicaciones distribiudas\\tareas\\api\\apiproductos\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228F7AE9-BD08-AD45-E6D0-2B8F1CBA33BF}|ApiProductos.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +43,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD T\u00C9CNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\Api\\ApiProductos\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\melcu\\OneDrive - UNIVERSIDAD T\u00C9CNICA DE AMBATO\\UNIVERSIDAD PERIODO 2025-2026\\Aplicaciones distribiudas\\Tareas\\Api\\ApiProductos\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T21:52:36.109Z",
+              "EditorCaption": ""
             }
           ]
         }
