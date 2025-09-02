@@ -1,55 +1,108 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# # Ignorar los archivos temporales de Visual Studio, los resultados de compilación y
+# # archivos generados por complementos populares de Visual Studio.
+# Archivos específicos del usuario
+* .suo
+* .usuario
+* .sln.docstates
+# Resultados de la construcción
+[ Dd ] error /
+[ Rr ] liberación /
+x64 /
+[ Bb ] en /
+[ Oo ] bj /
+# Resultados de la prueba MSTest
+[ Tt ] est [ Rr ] resultado * /
+[ Bb ] construído [ Ll ] og. *
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+* .registro
+* .vspscc
+* .vssscc
+.construcciones
+* .pidb
+* .registro
+* .svclog
+* .scc
+# Archivos de caché de Visual C++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .archivo de caché
+# Generador de perfiles de Visual Studio
+* .psess
+* .vsp
+* .vspx
+# Kit de herramientas de automatización de orientación
+* .gpState
+# ReSharper es un complemento de codificación .NET
+_ReSharper * /
+* . [ Rr ] e [ Ss ] arpista
+* .DotSettings.usuario
+# Directorio de un solo clic
+publicar /
+# Publicar salida web
+* .Publish.xml
+* .pubxml
+* .azurePubxml
+# Directorio de paquetes NuGet
+# # TODO: Si tiene habilitada la restauración de paquetes NuGet, descomente la siguiente línea
+paquetes /
+# # TODO: Si la herramienta que utiliza requiere repositories.config, también descomente la siguiente línea
+! paquetes / repositorios.config
+# Salida de compilación de Windows Azure
+csx /
+* .build.csdef
+# Directorio de paquetes de aplicaciones de la Tienda Windows
+Paquetes de aplicaciones /
+# Otros
+sql /
+* .Caché
+ClientBin /
+[ Ss ] estilo [ Cc ] op. *
+! [ Ss ] estilo [ Cc ] objetivos operativos
+~$ *
+* ~
+* .dbmdl
+* . [ Pp ] publicar.xml
+* .publicarconfiguraciones
+# Proyectos RIA/Silverlight
+Código generado /
+# Archivos de copia de seguridad e informes de la conversión de un archivo de proyecto antiguo a uno más nuevo
+Versión de Visual Studio. No se necesitan copias de seguridad, ya que tenemos Git.
+_Archivos de informe de actualización /
+Respaldo * /
+Registro de actualización * .XML
+Registro de actualización * .htm
+# Archivos de SQL Server
+Datos de la aplicación / * .mdf
+Datos de la aplicación / * .ldf
+# =========================
+# Detritos de Windows
+# =========================
+# Cachés de archivos de imagen de Windows
+Thumbs.db
+ehthumbs.db
+# Archivo de configuración de carpeta
+Escritorio.ini
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$RECYCLE.BIN /
+# Archivos de la tienda del servicio de escritorio de Mac
+.DS_Store
+_NCrunch *
