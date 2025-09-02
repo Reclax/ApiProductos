@@ -53,6 +53,18 @@ namespace ApiProductos.Controllers
             return NoContent();
         }
 
+         // DELETE /api/productos/{id}
+        [HttpDelete("{id}")]
+        public IActionResult EliminarProducto(int id)
+        {
+            var producto = productos.FirstOrDefault(p => p.Id == id);
+            if (producto == null)
+                return NotFound();
+
+            productos.Remove(producto);
+            return NoContent();
+        }
+
     }
 }
 
