@@ -38,6 +38,20 @@ namespace ApiProductos.Controllers
             return CreatedAtAction(nameof(GetProducto), new { id = nuevoProducto.Id }, nuevoProducto);
         }
 
+        // PUT /api/productos/{id}
+        [HttpPut("{id}")]
+        public IActionResult ActualizarProducto(int id, [FromBody] Producto productoActualizado)
+        {
+            var producto = productos.FirstOrDefault(p => p.Id == id);
+            if (producto == null)
+                return NotFound();
+
+            producto.Nombre = productoActualizado.Nombre;
+            producto.Precio = productoActualizado.Precio;
+            producto.Disponible = productoActualizado.Disponible;
+
+            return NoContent();
+        }
 
     }
 }
