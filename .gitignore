@@ -106,3 +106,5 @@ $RECYCLE.BIN /
 # Archivos de la tienda del servicio de escritorio de Mac
 .DS_Store
 _NCrunch *
+
+.idea/
